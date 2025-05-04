@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 // Create axios instance
 const api = axios.create({
   // baseURL: 'http://localhost:4000/api',
-  baseURL: 'https://e-voting-f82d.onrender.com'
+  baseURL: 'https://e-voting-f82d.onrender.com',
   headers: {
     'Content-Type': 'application/json'
   }
